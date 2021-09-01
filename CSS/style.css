@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main_img{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.logo{
+  margin-left: 20px;
+  margin-top:20px;
+  width: 100px;
+  height: 100px;
+}
+.logo_br{
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+a{
+  display: block;
+}
+.prov{
+  margin-top: 200px;
+  display: flex;
+
+}
+.table_of_contents{
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  margin-right: 50px;
+  margin-top: 20px;
+}
